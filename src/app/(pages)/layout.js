@@ -12,8 +12,8 @@ export const metadata = {
     title: "philhenning",
     description: "portfolio",
     type: "website",
-    url: "https://philhenning.online/",
-    images: ["https://philhenning.online/Projects/philhenning_screenshot.png"], // add an appropriate image to your public folder 
+    url: "https://main.philhenning.online/",
+    images: ["https://main.philhenning.online/Projects/philhenning_screenshot.png"], // add an appropriate image to your public folder 
   },
 };
 
