@@ -6,7 +6,7 @@ export default function Projects() {
       <>
         <Hover2>
           <Project
-            name="Who wants to be less of a peasant?"
+            name="Quiz"
             type="Project"
             language="JavaScript (Next.js)"
             db="PostgreSQL"
@@ -123,7 +123,7 @@ export default function Projects() {
 
         <Hover2>
           <Project
-            name="philhenning.co.uk"
+            name="philhenning"
             type="Project"
             language="Next.js, HTML, CSS"
             db=""
