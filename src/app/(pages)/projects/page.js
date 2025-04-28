@@ -13,7 +13,7 @@ export default function Projects() {
             projectManagementTool="Trello, "
             whiteBoardingTool="Miro"
             link="https://quiz.philhenning.online"
-            image="peasant_screenshot.png"
+            image="quiz_screenshot.png"
             description="Built on the back of completing the Tech-Educators 'Software DeveloprojectManagementToolent' bootcamp. Built using Next.js."
           />
         </Hover2>
