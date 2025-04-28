@@ -6,14 +6,14 @@ import Footer from "@/app/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "philhenning.co.uk",
+  title: "philhenning",
   description: "portfolio",
   openGraph:{
-    title: "philhenning.co.uk",
+    title: "philhenning",
     description: "portfolio",
     type: "website",
-    url: "https://philhenning.co.uk/",
-    images: ["https://philhenning.co.uk/Projects/philhenning_screenshot.png"], // add an appropriate image to your public folder 
+    url: "https://philhenning.online/",
+    images: ["https://philhenning.online/Projects/philhenning_screenshot.png"], // add an appropriate image to your public folder 
   },
 };
 
