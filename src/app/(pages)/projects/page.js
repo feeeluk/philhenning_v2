@@ -8,8 +8,8 @@ export default function Projects() {
           <Project
             name="Philhenning"
             type="Project"
-            language="Next.js, HTML, CSS"
-            db=""
+            language="JavasScript (Next.js), HTML, CSS"
+            db="None"
             projectManagementTool="Trello, "
             whiteBoardingTool="Miro "
             link="https://main.philhenning.online"
@@ -22,7 +22,7 @@ export default function Projects() {
           <Project
             name="Quiz"
             type="Project"
-            language="JavaScript (Next.js)"
+            language="JavaScript (Next.js), HTML, CSS"
             db="PostgreSQL"
             projectManagementTool="Trello, "
             whiteBoardingTool="Miro"
@@ -96,12 +96,12 @@ export default function Projects() {
             name="Commercial Sales Portal"
             type="Proof of concept"
             language="PHP, HTML, CSS"
-            db="MySQL"
+            db="None"
             projectManagementTool=""
             whiteBoardingTool=""
             link="http://portal.philhenning.online"
             image="portal_screenshot.png"
-            description="Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration (SimplePortal System - see below) would take that next evolutionary step."
+            description="Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration would link to a database and use CRUD to essentially enable the site to be a content management system, whilst also allowing the telesales team to build a 'shopping cart' for each customer."
           />
         </Hover2>
 
