@@ -6,6 +6,20 @@ export default function Projects() {
       <>
         <Hover2>
           <Project
+            name="Philhenning"
+            type="Project"
+            language="Next.js, HTML, CSS"
+            db=""
+            projectManagementTool="Trello, "
+            whiteBoardingTool="Miro "
+            link="https://main.philhenning.online"
+            image="philhenning_screenshot.png"
+            description="The site you are currently looking at is a project of mine that I am still regularly working on."
+          />
+        </Hover2>
+        
+        <Hover2>
+          <Project
             name="Quiz"
             type="Project"
             language="JavaScript (Next.js)"
@@ -17,7 +31,80 @@ export default function Projects() {
             description="Built on the back of completing the Tech-Educators 'Software DeveloprojectManagementToolent' bootcamp. Built using Next.js."
           />
         </Hover2>
+        
+        <Hover2>
+          <Project
+            name="TreeData V1"
+            type="Proof of concept"
+            language="PHP, HTML, CSS"
+            db="MySQL"
+            projectManagementTool="Trello, "
+            whiteBoardingTool=""
+            link="http://treedatav1.philhenning.online"
+            image="treedata_screenshot.png"
+            description="This is a current Proof Of Concept for a commercial client (although undertaken without recompense).
 
+            The client wishes to provide his clients with the means to view data about specific trees on a given site. My client 'tags' each tree that he surveys with a physical metal disc that has an identifier - albeit not a universally unique identifier, only unique to the site.
+            The POC is purely based on data, hence there the low-fi visuals."
+          />
+        </Hover2>
+
+        <Hover2>
+          <Project
+            name="Snowcompare"
+            type="Project"
+            language="PHP, HTML, CSS"
+            db="MySQL"
+            projectManagementTool=""
+            whiteBoardingTool=""
+            link="http://snowcompare.philhenning.online"
+            image="snowcompare_screenshot.png"
+            description="This was my first piece of web development coursework at university. Primarily made to showcase my development skills. Use 'username: phil password: test'"
+          />
+        </Hover2>
+
+        <Hover2>
+          <Project
+            name="Snowcompare Shop"
+            type="Project"
+            language="PHP, HTML, CSS"
+            db="MySQL"
+            projectManagementTool=""
+            whiteBoardingTool=""
+            link="http://snowcompareshop.philhenning.online"
+            image="snowcompare_shop_screenshot.png"
+            description="This was my second piece of web development coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end. Use 'username: phil password: test'"
+          />
+        </Hover2>
+
+        <Hover2>
+          <Project
+            name="Points Academy"
+            type="Proof of concept"
+            language="PHP, HTML. CSS"
+            db="MySQL"
+            projectManagementTool=""
+            whiteBoardingTool=""
+            link="http://pointsacademy.philhenning.online"
+            image="points_academy_screenshot.png"
+            description="This client had a highly successful line of orthapedic products for which they already had a reward system in place, however the administration involved was significant and laborious. This proof of concept application successfully demonstrated that the process could be transformed to digital with ease, and could - at the same time - provide existing customers an online platform to manage their reward account. The concept was eventually adopted by the company."
+          />
+        </Hover2>
+
+        <Hover2>
+          <Project
+            name="Commercial Sales Portal"
+            type="Proof of concept"
+            language="PHP, HTML, CSS"
+            db="MySQL"
+            projectManagementTool=""
+            whiteBoardingTool=""
+            link="http://portal.philhenning.online"
+            image="portal_screenshot.png"
+            description="Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration (SimplePortal System - see below) would take that next evolutionary step."
+          />
+        </Hover2>
+        
         <Hover2>
           <Project
             name="Race V2"
@@ -101,93 +188,6 @@ export default function Projects() {
 
             Including:
             variables, type casting, arithmetic operators, string methods, if statements, switches, logical operators, while loops, for loops, nested loops, arrays, foreach loops, methods, return keyword, method overloading, params keyword, exception handling, conditional operator, string interpolation, multidimensional arrays, classes, objects, constructors, static keyword, overloaded constructors, inheritance, abstract classes, array of objects, objects as arguments, method overriding, ToString method, polymorphism, interfaces, lists, list of objects, getters and setters, auto implemented properties, enums, generics, multi-threading."
-          />
-        </Hover2>
-
-        <Hover2>
-          <Project
-            name="TreeData"
-            type="Proof of concept"
-            language="PHP, HTML, CSS"
-            db="MySQL"
-            projectManagementTool="Trello, "
-            whiteBoardingTool=""
-            link="http://treedata.philhenning.online"
-            image="treedata_screenshot.png"
-            description="This is a current Proof Of Concept for a commercial client (although undertaken without recompense).
-
-            The client wishes to provide his clients with the means to view data about specific trees on a given site. My client 'tags' each tree that he surveys with a physical metal disc that has an identifier - albeit not a universally unique identifier, only unique to the site.
-            The POC is purely based on data, hence there the low-fi visuals."
-          />
-        </Hover2>
-
-        <Hover2>
-          <Project
-            name="Philhenning"
-            type="Project"
-            language="Next.js, HTML, CSS"
-            db=""
-            projectManagementTool="Trello, "
-            whiteBoardingTool="Miro "
-            link="https://main.philhenning.online"
-            image="philhenning_screenshot.png"
-            description="The site you are currently looking at is a project of mine that I am still regularly working on."
-          />
-        </Hover2>
-
-        <Hover2>
-          <Project
-            name="Snowcompare"
-            type="Project"
-            language="PHP, HTML, CSS"
-            db="MySQL"
-            projectManagementTool=""
-            whiteBoardingTool=""
-            link="http://snowcompare.philhenning.online"
-            image="snowcompare_screenshot.png"
-            description="This was my first piece of web development coursework at university. Primarily made to showcase my development skills. Use 'username: phil password: test'"
-          />
-        </Hover2>
-
-        <Hover2>
-          <Project
-            name="Snowcompare shop"
-            type="Project"
-            language="PHP, HTML, CSS"
-            db="MySQL"
-            projectManagementTool=""
-            whiteBoardingTool=""
-            link="http://snowcompareshop.philhenning.online"
-            image="snowcompare_shop_screenshot.png"
-            description="This was my second piece of web development coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end. Use 'username: phil password: test'"
-          />
-        </Hover2>
-
-        <Hover2>
-          <Project
-            name="Points Academy"
-            type="Proof of concept"
-            language="PHP, HTML. CSS"
-            db="MySQL"
-            projectManagementTool=""
-            whiteBoardingTool=""
-            link="http://pointsacademy.philhenning.online"
-            image="points_academy_screenshot.png"
-            description="This client had a highly successful line of orthapedic products for which they already had a reward system in place, however the administration involved was significant and laborious. This proof of concept application successfully demonstrated that the process could be transformed to digital with ease, and could - at the same time - provide existing customers an online platform to manage their reward account. The concept was eventually adopted by the company."
-          />
-        </Hover2>
-
-        <Hover2>
-          <Project
-            name="Commercial Sales Portal"
-            type="Proof of concept"
-            language="PHP, HTML, CSS"
-            db="MySQL"
-            projectManagementTool=""
-            whiteBoardingTool=""
-            link="http://portal.philhenning.online"
-            image="portal_screenshot.png"
-            description="Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration (SimplePortal System - see below) would take that next evolutionary step."
           />
         </Hover2>
       </>
