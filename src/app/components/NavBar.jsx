@@ -15,9 +15,6 @@ export default function NavBar(){
                 &nbsp;|&nbsp;
 
                 <Link href="/projects">Projects</Link>
-                &nbsp;|&nbsp;
-
-                <a href="/CV.pdf" target="blank">CV</a>
                          
             </nav>
             
