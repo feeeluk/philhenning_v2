@@ -16,9 +16,11 @@ export default function Home() {
   skills span a range of languages and frameworks, including C#, 
   JavaScript, PHP, React, Next.js, HTML and CSS. I also have 
   experience with various database systems and tools, including 
-  MySQL, phpMyAdmin, MS SQL, SSMS, PostgreSQL, and Supabase.  
+  MySQL, phpMyAdmin, MS SQL, SSMS, PostgreSQL, and Supabase.
+      </p>
+      <p>  
   My passion for coding dates to my undergraduate studies, where I 
-  focused on web technologies, and in 2015 I completed a Masters’s 
+  focused on web technologies, and in 2015 I completed a Master’s 
   degree in Information, Systems and Technology which gave me 
   even more insight into the world of software development. I have 
   recently had a change in personal circumstances; however, I am 
