@@ -30,7 +30,7 @@ export default function Footer(){
                 </Link>
                 &nbsp;
 
-                <Link href="https://trello.com/b/Jv8446af/philhenning" target="_blank">
+                <Link href="https://trello.com/invite/b/6827251f15590048ad20ae29/ATTIbd7db5c489cbc1fd2ba5e22ac59f2c2cB927CD4D/philhenning" target="_blank">
                     <Image src="/ToolLogos/Trello.png" alt="Trello logo" height="30" width="30" />
                 </Link>
 
