@@ -10,7 +10,7 @@ export default function Footer(){
                 </Link>
                 &nbsp; 
                 
-                <Link href="www.linkedin.com/in/phil-henning1982" target="_blank">
+                <Link href="https://www.linkedin.com/in/phil-henning1982" target="_blank">
                     <Image src="/ToolLogos/LinkedIn.png" alt="LinkedIn logo" width="30" height="30" />
                 </Link>
                 &nbsp;
