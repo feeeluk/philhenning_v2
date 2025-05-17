@@ -32,6 +32,7 @@ a:hover{
 
 p {
   text-align: left;
+  border-bottom: 3px;
 }
 
 h3{
