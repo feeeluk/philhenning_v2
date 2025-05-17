@@ -25,7 +25,7 @@ export default function Footer(){
                 </Link>
                 &nbsp;
 
-                <Link href="https://miro.com/app/board/uXjVKmPtAGU=/?share_link_id=986521896410" target="_blank">
+                <Link href="https://miro.com/app/board/uXjVI0IaFmg=/?share_link_id=167370584887" target="_blank">
                     <Image src="/ToolLogos/Miro.png" alt="Miro logo" height="30" width="30" />
                 </Link>
                 &nbsp;
