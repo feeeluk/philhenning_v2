@@ -159,7 +159,7 @@ export default function Home() {
         />
 
         <ItemTool
-        name="Azure DevOps"
+        name="Azure Boards"
         image="Azure.png"
         description="Experienced."
         />
