@@ -15,6 +15,9 @@ export default function NavBar(){
                 &nbsp;|&nbsp;
 
                 <Link href="/projects">Projects</Link>
+                &nbsp;|&nbsp;
+
+                <Link href="/self_employment.pptx">Self employment</Link>
                          
             </nav>
             
