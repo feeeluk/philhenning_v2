@@ -17,7 +17,7 @@ export default function NavBar(){
                 <Link href="/projects">Projects</Link>
                 &nbsp;|&nbsp;
 
-                <Link href="/self_employment.pptx">Self employment</Link>
+                <Link href="https://1drv.ms/p/c/4ec6f60b40ba590f/EVNcQ_TB3J1Np8386CsHat0BOFotVATx8AmYI0cSPWEV6A?e=Whdjbl">Self employment</Link>
                          
             </nav>
             
