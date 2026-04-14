@@ -7,25 +7,16 @@ export default function Home() {
 
   return(
     <>
+
       <p>
-        I am an experienced Business Analyst and Product Owner with over 
-  10 years of industry experience, who is seeking to transition into the 
-  software development industry. I have a passion for technology, and 
-  a strong foundation in coding (supported by the recent completion 
-  of a software development bootcamp in August 2024). My technical 
-  skills span a range of languages and frameworks, including C#, 
-  JavaScript, PHP, React, Next.js, HTML and CSS. I also have 
-  experience with various database systems and tools, including 
-  MySQL, phpMyAdmin, MS SQL, SSMS, PostgreSQL, and Supabase.
+        I’m an experienced Business Analyst and Product Owner who is now moving fully into software development. A significant change in my circumstances led me to refocus my career, and I’ve committed to building on the technical foundations I’ve had for many years. I work across the full stack with C#, PHP, JavaScript, Next.js, React, CSS3, and HTML5, and I’m developing my backend capabilities further with Laravel.
       </p>
-      <p>  
-  My passion for coding dates to my undergraduate studies, where I 
-  focused on web technologies, and in 2015 I completed a Master’s 
-  degree in Information, Systems and Technology which gave me 
-  even more insight into the world of software development. I have 
-  recently had a change in personal circumstances; however, I am 
-  now fully committed to furthering my career in this field.  
+
+      <p>
+        My interest in development began during my academic studies and has remained a consistent thread throughout my career. That long‑standing foundation now supports a clear focus on building well‑structured, reliable applications and continuing to grow as a full‑stack developer.
       </p>
+
+
 
       <h3>Dev Skills</h3>
 

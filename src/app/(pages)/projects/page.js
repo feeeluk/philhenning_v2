@@ -4,7 +4,7 @@ import { Hover2 } from "@/app/components/animations/Hover2"
 export default function Projects() {
     return(
       <>
-        <Hover2>
+        {/* <Hover2>
           <Project
             name="Philhenning"
             type="Project"
@@ -16,7 +16,7 @@ export default function Projects() {
             image="philhenning_screenshot.png"
             description="The site you are currently looking at is a project of mine that I am still regularly working on."
           />
-        </Hover2>
+        </Hover2> */}
         
         <Hover2>
           <Project
@@ -26,7 +26,7 @@ export default function Projects() {
             db="PostgreSQL"
             projectManagementTool="Trello, "
             whiteBoardingTool="Miro"
-            link="https://quiz.philhenning.online"
+            link="https://quiz.pdhtechnology.com"
             image="quiz_screenshot.png"
             description="Built on the back of completing the Tech-Educators 'Software DeveloprojectManagementToolent' bootcamp. Built using Next.js."
           />
@@ -40,7 +40,7 @@ export default function Projects() {
             db="MySQL"
             projectManagementTool="Trello, "
             whiteBoardingTool=""
-            link="http://treedatav1.philhenning.online"
+            link="https://treedatav1.pdhtechnology.com"
             image="treedata_v1_screenshot.png"
             description="This is a current Proof Of Concept for a commercial client (although undertaken without recompense).
 
@@ -51,13 +51,13 @@ export default function Projects() {
 
         <Hover2>
           <Project
-            name="Snowcompare"
+            name="Snow Compare"
             type="Project"
             language="PHP, HTML, CSS"
             db="MySQL"
             projectManagementTool=""
             whiteBoardingTool=""
-            link="http://snowcompare.philhenning.online"
+            link="https://snowcompare.pdhtechnology.com"
             image="snowcompare_screenshot.png"
             description="This was my first piece of web development coursework at university. Primarily made to showcase my development skills. Use 'username: phil password: test'"
           />
@@ -65,13 +65,13 @@ export default function Projects() {
 
         <Hover2>
           <Project
-            name="Snowcompare Shop"
+            name="Snow Compare Shop"
             type="Project"
             language="PHP, HTML, CSS"
             db="MySQL"
             projectManagementTool=""
             whiteBoardingTool=""
-            link="http://snowcompareshop.philhenning.online"
+            link="https://snowcompareshop.pdhtechnology.com"
             image="snowcompare_shop_screenshot.png"
             description="This was my second piece of web development coursework at university. Building upon the first project above, the purpose of this project was to focus on an 'e-commerce' back-end. Use 'username: phil password: test'"
           />
@@ -85,7 +85,7 @@ export default function Projects() {
             db="MySQL"
             projectManagementTool=""
             whiteBoardingTool=""
-            link="http://pointsacademy.philhenning.online"
+            link="https://pointsacademy.pdhtechnology.com"
             image="points_academy_screenshot.png"
             description="This client had a highly successful line of orthapedic products for which they already had a reward system in place, however the administration involved was significant and laborious. This proof of concept application successfully demonstrated that the process could be transformed to digital with ease, and could - at the same time - provide existing customers an online platform to manage their reward account. The concept was eventually adopted by the company."
           />
@@ -99,13 +99,13 @@ export default function Projects() {
             db="None"
             projectManagementTool=""
             whiteBoardingTool=""
-            link="http://portal.philhenning.online"
+            link="https://commercialsaleportal.pdhtechnology.com"
             image="portal_screenshot.png"
             description="Initially conceived as a short-term tool to help a brand new sales team get up to speed with learning the particulars of various products. It subsequently evolved into a more substantial long-term tool that was regularly used. This first iteration was purely static. The next iteration would link to a database and use CRUD to essentially enable the site to be a content management system, whilst also allowing the telesales team to build a 'shopping cart' for each customer."
           />
         </Hover2>
 
-        <Hover2>
+        {/* <Hover2>
           <Project
             name="Race V2"
             type="Project"
@@ -120,7 +120,7 @@ export default function Projects() {
             This is modelled on a race concept (multiple vehicles, multiple teams, multiple race circuits), which allows plenty of scope for creating objects, lists, inhertance, polymorphism, interfaces, etc..
             Creating a 'larger' project then in turn introduces further challenges, such as menu design, and starts to explore 'what does a user of this program want to achieve?'."
           />
-        </Hover2>
+        </Hover2> */}
 
         <Hover2>
           <Project

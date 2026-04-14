@@ -7,7 +7,7 @@ export default function NavBar(){
         <div className="NavBar">
 
             <div className="Logo">
-                <Image src="/main_logo.png" alt="main logo" width="800" height="120" />
+                <Image src="/logo.png?v=1" alt="main logo" width="800" height="120" />
             </div>
 
             <nav class="Link">
@@ -17,10 +17,7 @@ export default function NavBar(){
                 <Link href="/projects">Projects</Link>
                 &nbsp;|&nbsp;
 
-                <Link href="https://1drv.ms/p/c/4ec6f60b40ba590f/EVNcQ_TB3J1Np8386CsHat0BOFotVATx8AmYI0cSPWEV6A?e=Whdjbl">Self-Employment</Link>
-                &nbsp;|&nbsp;
-
-                <Link href="http://phd.philhenning.online">PHD Technology</Link>
+                <Link href="https://pdhtechnology.com">PDH Technology</Link>
                          
             </nav>
             
