@@ -139,7 +139,7 @@ export default function Home() {
       <div className="ItemContainer">
         <ItemTool
         name="GIT"
-        image="GIT.png"
+        image="GitHub.png"
         description="Daily use, familiar with branching & pull requests."
         />
 
