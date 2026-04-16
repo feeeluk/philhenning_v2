@@ -24,12 +24,16 @@ export default function Project({name, type, language, db, projectManagementTool
                             <div className="DetailInfo">{language}</div>
                         </div>
                         <div className="DetailContainer">     
-                            <div className="DetailItem">Db: </div>
+                            <div className="DetailItem">Database: </div>
                             <div className="DetailInfo">{db}</div>
                         </div>
                         <div className="DetailContainer">     
-                            <div className="DetailItem">Tools:</div>
-                            <div className="DetailInfo">{projectManagementTool}{whiteBoardingTool}</div>
+                            <div className="DetailItem">Management:</div>
+                            <div className="DetailInfo">{projectManagementTool}</div>
+                        </div>
+                        <div className="DetailContainer">     
+                            <div className="DetailItem">Whiteboard:</div>
+                            <div className="DetailInfo">{whiteBoardingTool}</div>
                         </div>
 
                     </div>

@@ -20,6 +20,20 @@ export default function Projects() {
         
         <Hover2>
           <Project
+            name="PDH Technology"
+            type="Project"
+            language="PHP, HTML, CSS"
+            db="None"
+            projectManagementTool="Trello, Azure DevOps boards"
+            whiteBoardingTool="Miro"
+            link="https://pdhtechnology.com"
+            image="pdh_technology_screenshot.png"
+            description="This site was built to support my self-employment business / used as a means to work on improving my coding"
+          />
+        </Hover2>
+        
+        <Hover2>
+          <Project
             name="Quiz"
             type="Project"
             language="JavaScript (Next.js), HTML, CSS"

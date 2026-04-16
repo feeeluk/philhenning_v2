@@ -137,6 +137,12 @@ h3 {
   font-weight: 300;
 }
 
+/* Center project titles globally */
+.ProjectContainer h3,
+.Name {
+  text-align: center;
+}
+
 .ProjectRow {
   display: flex;
   flex-direction: row;
@@ -150,6 +156,7 @@ h3 {
   flex-direction: column;
   padding: 10px;
 }
+
 
 .Image {
   border-radius: 3px;
@@ -167,7 +174,7 @@ h3 {
 }
 
 .DetailItem {
-  min-width: 80px;
+  min-width: 100px;
 }
 
 .DetailInfo {
@@ -216,17 +223,14 @@ h3 {
   .ProjectColumn2,
   .ProjectColumn3 {
     width: 100%;
+    max-width: none;
     padding-left: 10px;
   }
 
-  .ProjectContainer h3,
   .Name {
-    text-align: center;
     padding-left: 0;
   }
 }
-
-
 
 /* DESKTOP (≥801px) */
 @media screen and (min-width: 801px) {
@@ -243,11 +247,22 @@ h3 {
     max-width: 800px;
   }
 
-  .ProjectColumn1 { width: 24%; }
-  .ProjectColumn2 { width: 44%; }
-  .ProjectColumn3 { width: 32%; }
+  /* Desktop column widths */
+  .ProjectColumn1 { width: 30%; }
+  .ProjectColumn2 { width: 40%; }
+  .ProjectColumn3 { width: 30%; }
 
   .Name {
-    padding-left: 24%;
+    padding-left: 0;
+    text-align: center;
   }
+}
+
+/* FINAL OVERRIDE — FORCE PROJECT TITLES TO CENTER */
+.ProjectContainer h3,
+.ProjectContainer .Name {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
 }
