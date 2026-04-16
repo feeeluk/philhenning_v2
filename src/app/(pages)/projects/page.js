@@ -40,7 +40,7 @@ export default function Projects() {
             db="PostgreSQL"
             projectManagementTool="Trello"
             whiteBoardingTool="Miro"
-            link="https://quiz.pdhtechnology.com"
+            link="https://quiz.philiphenning.com"
             image="quiz_screenshot.png"
             description="Built on the back of completing the Tech-Educators 'Software DeveloprojectManagementToolent' bootcamp. Built using Next.js."
           />
