@@ -8,17 +8,18 @@ Text = white
 
 * {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 html,
 body {
-  width: 100vw;
-  text-align: center;
+  width: 100%;
   background-color: #404040;
   color: white;
   font-weight: 300;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #96B946;
 }
 
@@ -36,86 +37,82 @@ p {
   line-height: 1.4;
 }
 
-h3{
+h3 {
   margin-top: 15px;
   margin-bottom: 5px;
   color: #F0870F;
 }
 
-/* NavBar */
-.NavBar{
-  position:fixed;
+/* NAVBAR */
+.NavBar {
+  position: fixed;
   top: 0;
-  height: 155px;
   width: 100%;
+  height: 155px;
   background-color: #404040;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-        /* Logo / Text */
-        .Logo{
-          color: #96B946;
-        }
-        
-        /* Links */
-        .Link{
-          color: white;
-          margin-top: 0px;
-          margin-bottom: 5px;
-          font-weight: 600;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-        }
-                
-  /* Footer */
-  .Footer{
-    background-color: #404040;
-    color: white;
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    bottom: 0;
-    z-index: 10;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* PageLayout */
-  .PageLayout{
-    margin: auto;
-    margin-top: 155px;
-    margin-bottom: 50px;
-    }
-
-/* HOME PAGE */
-
-/* Items */
-.ItemContainer{
+/* Nav links */
+.Link {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 600;
+  gap: 10px;
+  margin-top: 5px;
 }
 
-.Item{
+/* FOOTER */
+.Footer {
+  background-color: #404040;
+  color: white;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PAGE LAYOUT */
+.PageLayout {
+  margin: auto;
+  margin-top: 155px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+/* HOME PAGE */
+.ItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Item {
   height: 100px;
   width: 100px;
   background-color: rgb(158, 152, 144);
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 5px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 5px;
   position: relative;
 }
 
-.ItemAlt{
+.ItemAlt {
   width: 100%;
   height: 100%;
   background-color: white;
@@ -129,161 +126,128 @@ h3{
 }
 
 /* PROJECTS PAGE */
-/* Projects */
-
-.ProjectContainer{
+.ProjectContainer {
   width: 100%;
+  background-color: rgba(114, 114, 109, 1);
+  border: 1px solid rgba(219, 213, 213, 0.5);
+  border-radius: 5px;
+  margin-bottom: 15px;
   text-align: left;
   font-size: 14px;
   font-weight: 300;
-  background-color:rgba(114, 114, 109, 1);
-  border: 1px solid rgba(219, 213, 213, 0.500);
-  border-radius: 5px;
-  margin-bottom: 15px;
 }
 
-.ProjectRow{
+.ProjectRow {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.Name{
-  padding-top: 10px;
-  margin-bottom: 2px;
-}
-
-.ProjectColumn1{
+.ProjectColumn1,
+.ProjectColumn2,
+.ProjectColumn3 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
+  padding: 10px;
 }
 
-.ProjectColumn2{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;;
-  padding-top: 5px;
-  padding-left: 0px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.ProjectColumn3{
-  display: flex;
-  flex-direction: column;
-  align-content:flex-start;
-  justify-content: left;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-
-.Image{
+.Image {
   border-radius: 3px;
 }
 
-.ProjectContainer:hover .Image{
-  border: 2px solid rgba(240, 135, 15, .400);
+.ProjectContainer:hover .Image {
+  border: 2px solid rgba(240, 135, 15, 0.4);
   border-radius: 5px;
 }
 
-.DetailContainer{
+.DetailContainer {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   width: 100%;
 }
 
-.DetailItem{
+.DetailItem {
   min-width: 80px;
 }
 
-.DetailInfo{
+.DetailInfo {
   color: #96B946;
   font-weight: 600;
-  width: 100%;
 }
 
+/* ----------------------------- */
+/* RESPONSIVE BREAKPOINTS        */
+/* ----------------------------- */
+
+/* MOBILE (≤800px) */
 @media screen and (max-width: 800px) {
-  
-  html,body {
+
+  html, body {
     font-size: 12px;
   }
 
-  p {
+  /* NAVBAR */
+  .NavBar {
+    height: 110px;
+  }
+
+  .NavBar div {
+    height: 70px !important;
+  }
+
+  .Link {
+    gap: 4px;
+    margin-top: 0;
+  }
+
+  /* PAGE LAYOUT */
+  .PageLayout {
+    max-width: 100%;
+    padding: 0 10px;
+    margin-top: 120px;
+  }
+
+  /* PROJECTS */
+  .ProjectRow {
+    flex-direction: column;
+  }
+
+  .ProjectColumn1,
+  .ProjectColumn2,
+  .ProjectColumn3 {
+    width: 100%;
     padding-left: 10px;
-    padding-right: 10px;
   }
 
-  .Footer{
-    font-size: 11px;
+  .ProjectContainer h3,
+  .Name {
+    text-align: center;
+    padding-left: 0;
   }
-
-  /* PageLayout */
-  .PageLayout{
-    width: 600px;
-    }
-
-    .ProjectColumn1{
-      width: 30%;
-    }
-
-    .Name{
-      padding-left: 30%;
-    }
-    
-    .ProjectColumn2{
-      width: 38%;
-    }
-    
-    .ProjectColumn3{
-      width: 32%;
-    }
 }
 
+
+
+/* DESKTOP (≥801px) */
 @media screen and (min-width: 801px) {
-  
-  html,body {
+
+  html, body {
     font-size: 14px;
   }
 
-  a{
+  a {
     font-size: 17px;
   }
 
-  p {
-    padding: 0px;
+  .PageLayout {
+    max-width: 800px;
   }
 
-  .Footer{
-    font-size: 11px;
-  }
-  
-  /* PageLayout */
-  .PageLayout{
-    width: 800px;
-    }
-  
-  .Name{
+  .ProjectColumn1 { width: 24%; }
+  .ProjectColumn2 { width: 44%; }
+  .ProjectColumn3 { width: 32%; }
+
+  .Name {
     padding-left: 24%;
-  }
-
-  .ProjectColumn1{
-    width: 24%;
-  }
-  
-  .ProjectColumn2{
-    width: 44%;
-  }
-  
-  .ProjectColumn3{
-    width: 32%;
   }
 }

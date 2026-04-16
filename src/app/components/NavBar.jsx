@@ -8,7 +8,7 @@ export default function NavBar(){
 
             <div style={{ position: "relative", width: "100%", height: "120px" }}>
                 <Image
-                    src="/logo.png?v=2"
+                    src="/logo.png?v=1"
                     alt="logo"
                     fill
                     style={{ objectFit: "contain" }}
@@ -16,14 +16,11 @@ export default function NavBar(){
             </div>
 
 
-            <nav class="Link">
+            <nav className="Link">
                 <Link href="/">Home</Link>
                 &nbsp;|&nbsp;
 
                 <Link href="/projects">Projects</Link>
-                &nbsp;|&nbsp;
-
-                <Link href="https://pdhtechnology.com">PDH Technology</Link>
                          
             </nav>
             
