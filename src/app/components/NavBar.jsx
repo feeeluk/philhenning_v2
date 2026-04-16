@@ -9,7 +9,7 @@ export default function NavBar(){
             <div style={{ position: "relative", width: "100%", height: "120px" }}>
                 <Link href="/">
                 <Image
-                    src="/logo.png?v=1"
+                    src="/logo1.png?v=2"
                     alt="logo"
                     fill
                     style={{ objectFit: "contain" }}
