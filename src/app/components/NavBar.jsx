@@ -6,9 +6,15 @@ export default function NavBar(){
 
         <div className="NavBar">
 
-            <div className="Logo">
-                <Image src="/logo.png?v=2" alt="main logo" width="800" height="120" />
+            <div style={{ position: "relative", width: "100%", height: "120px" }}>
+                <Image
+                    src="/logo.png?v=2"
+                    alt="logo"
+                    fill
+                    style={{ objectFit: "contain" }}
+                />
             </div>
+
 
             <nav class="Link">
                 <Link href="/">Home</Link>
