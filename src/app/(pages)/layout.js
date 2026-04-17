@@ -13,7 +13,7 @@ export const metadata = {
     description: "portfolio",
     type: "website",
     url: "https://philiphenning.com",
-    images: ["https://philiphenning.com/projects/philiphenning_screenshot.png"], // add an appropriate image to your public folder 
+    images: ["public/Projects/philiphenning_screenshot.png"], // add an appropriate image to your public folder 
   },
 };
 
