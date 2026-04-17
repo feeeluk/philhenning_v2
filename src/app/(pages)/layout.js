@@ -9,11 +9,11 @@ export const metadata = {
   title: "philhenning",
   description: "portfolio",
   openGraph:{
-    title: "philhenning",
+    title: "philiphenning - Junior Fullstack Software Developer & Business Analyst",
     description: "portfolio",
     type: "website",
-    url: "https://main.philhenning.online/",
-    images: ["https://main.philhenning.online/Projects/philhenning_screenshot.png"], // add an appropriate image to your public folder 
+    url: "https://philiphenning.com",
+    images: ["https://philiphenning.com/projects/philiphenning_screenshot.png"], // add an appropriate image to your public folder 
   },
 };
 
