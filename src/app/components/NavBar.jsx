@@ -23,6 +23,12 @@ export default function NavBar(){
                 &nbsp;|&nbsp;
 
                 <Link href="/projects">Projects</Link>
+                &nbsp;|&nbsp;
+
+                <Link href="/cv_philip_henning_junior_full_stack_software_developer.pdf" target="_blank">CV (Developer)</Link>
+                &nbsp;|&nbsp;
+
+                <Link href="/cv_philip_henning_business_analyst.pdf" target="_blank">CV (Business Analyst)</Link>
                          
             </nav>
             

@@ -13,7 +13,7 @@ export default function Home() {
       </p>
 
       <p>
-        My interest in development began during my academic studies and has remained a consistent thread throughout my career. That long‑standing foundation now supports a clear focus on building well‑structured, reliable applications and continuing to grow as a full‑stack developer.
+        My interest in development began during my academic studies and has remained a consistent thread throughout my career. That long-standing foundation now supports my continued growth as a full-stack developer.
       </p>
 
 
