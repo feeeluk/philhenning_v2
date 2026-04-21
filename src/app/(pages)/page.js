@@ -9,7 +9,7 @@ export default function Home() {
     <>
 
       <p>
-        I’m an experienced Business Analyst and Product Owner who is now moving fully into software development. A significant change in my circumstances led me to refocus my career, and I’ve committed to building on the technical foundations I’ve had for many years. I work across the full stack with C#, PHP, JavaScript, Next.js, React, CSS3, and HTML5, and I’m developing my backend capabilities further with Laravel.
+        I’m an experienced Business Analyst who is now moving fully into software development. A significant change in my circumstances led me to refocus my career, and I’ve committed to building on the technical foundations I’ve had for many years. I work across the full stack with C#, PHP, JavaScript, Next.js, React, CSS3, and HTML5, and I’m developing my backend capabilities further with Laravel.
       </p>
 
       <p>
